@@ -45,10 +45,6 @@ function initMainPage() {
     
     const bestsellersContainer = document.getElementById('bestsellers-container');
     if (bestsellersContainer) {
-        const sectionTitle = bestsellersContainer.closest('.section').querySelector('.section-title');
-        if (sectionTitle) {
-            sectionTitle.textContent = 'Наш выбор';
-        }
         
         const ourChoiceGames = [
             'Forza Horizon 5',
@@ -161,20 +157,6 @@ function createGameCard(game) {
         if (!e.target.classList.contains('add-to-cart')) {
             window.location.href = `game.html?id=${game.id}`;
         }
-    });
-
-    card.addEventListener('mouseenter', () => {
-        card.style.transform = 'scale(1.03)';
-        card.style.boxShadow = '0 5px 15px rgba(251, 187, 67, 0.2)';
-        card.style.zIndex = '10';
-        card.querySelector('.game-image').style.transform = 'scale(1.05)';
-    });
-    
-    card.addEventListener('mouseleave', () => {
-        card.style.transform = '';
-        card.style.boxShadow = '';
-        card.style.zIndex = '';
-        card.querySelector('.game-image').style.transform = '';
     });
 
     return card;
