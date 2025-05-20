@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGames - Магазин лицензионных игр</title>
+    <link rel="icon" href="SVG/Logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="Main.html" class="logo">
+            <img src="SVG/Logo.svg" class="logo-icon" alt="SafeGames Logo">
+            <div class="logo-text">SafeGame</div>
+        </a>
+        
+        <button class="burger-btn" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav class="nav-menu">
+            <div class="nav-links">
+                <a href="catalog.html" class="nav-btn">КАТАЛОГ ИГР</a>
+                <a href="about.html" class="nav-btn">О НАС</a>
+            </div>
+            <a href="cart.html" class="cart-icon-container">
+                <img src="SVG/Cart.svg" class="cart-icon" alt="Cart Icon">
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" data-game-id="kingdom-come-2">
+                <img src="Photo/kingdom-come-deliverance-2-4k-wallpaper-uhdpaper.com-615@5@c.jpg" alt="Kingdom Come: Deliverance II" class="hero-bg">
+                <div class="hero-content">
+                    <h1 class="hero-title">Kingdom Come:<br>Deliverance II</h1>
+                    <div class="hero-price">$79.99</div>
+                    <button class="hero-btn" data-game-id="kingdom-come-2">В КОРЗИНУ</button>
+                </div>
+            </div>
+            <div class="hero-slide" data-game-id="payday3">
+                <img src="Photo/Payday3.png" alt="Payday 3" class="hero-bg">
+                <div class="hero-content">
+                    <h1 class="hero-title">Payday 3</h1>
+                    <div class="hero-price">$39.99</div>
+                    <button class="hero-btn" data-game-id="payday3">В КОРЗИНУ</button>
+                </div>
+            </div>
+            <div class="hero-slide" data-game-id="baldurs-gate-3">
+                <img src="Photo/Baldurs.png" alt="Baldur's Gate 3" class="hero-bg">
+                <div class="hero-content">
+                    <h1 class="hero-title">Baldur's Gate 3</h1>
+                    <div class="hero-price">$59.99</div>
+                    <button class="hero-btn" data-game-id="baldurs-gate-3">В КОРЗИНУ</button>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn prev" aria-label="Предыдущий слайд"></button>
+        <button class="slider-btn next" aria-label="Следующий слайд"></button>
+        <div class="slider-dots"></div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Скидки</h2>
+        <div class="games-grid" id="discounts-container">
+        </div>
+    </section>
+
+    <section class="banners-section">
+        <div class="banners-container">
+            <div class="banner">
+                <img src="Photo/assassin-s-creed-shadows-will-get-a-manga-prequel-cover67a516ebaf86e.jpg" alt="Assassin's Creed">
+            </div>
+            <div class="banner">
+                <img src="Photo/COD-NEXT-TOUT.jpg" alt="Call of Duty">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Наш выбор</h2>
+        <div class="games-grid" id="bestsellers-container">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">SafeGame</div>
+            <div class="social-icons">
+                <a href="https://vk.com/art17727"><img src="SVG/vk-svgrepo-com.svg" class="social-icon vk-icon" alt="vk"></a>
+                <a href="https://www.instagram.com/artik_00789?igsh=NXhyNmc2MnB2bGVw"><img src="SVG/instagram-svgrepo-com.svg" class="social-icon instagram-icon" alt="instagram"></a>
+                <a href="https://t.me/artiklae"><img src="SVG/telegram-alt-svgrepo-com.svg" class="social-icon telegram-icon" alt="telegram"></a>
+            </div>
+        </div>
+        <div class="copyright">Copyright 2025 SafeGames all rights reserved</div>
+    </footer>
+
+    <script src="js/cartManager.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGames - Корзина</title>
+    <link rel="icon" href="SVG/Logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/cartManager.js"></script>
+    <script src="js/cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="Main.html" class="logo">
+            <img src="SVG/Logo.svg" class="logo-icon" alt="SafeGames Logo">
+            <div class="logo-text">SafeGame</div>
+        </a>
+        
+        <button class="burger-btn" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav class="nav-menu">
+            <div class="nav-links">
+                <a href="catalog.html" class="nav-btn">КАТАЛОГ ИГР</a>
+                <a href="about.html" class="nav-btn">О НАС</a>
+            </div>
+            <a href="cart.html" class="cart-icon-container">
+                <img src="SVG/Cart.svg" class="cart-icon" alt="Cart Icon">
+            </a>
+        </nav>
+    </header>
+
+    <main class="cart-content">
+        <div class="cart-container">
+            <h1>Корзина</h1>
+            <div class="cart-items" id="cartItems"></div>
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Товаров в корзине:</span>
+                    <span id="itemsCount">0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Общая сумма:</span>
+                    <span id="totalPrice">$0.00</span>
+                </div>
+                <button class="checkout-btn" id="checkoutBtn">Оформить заказ</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">SafeGame</div>
+            <div class="social-icons">
+                <a href="https://vk.com"><img src="SVG/vk-svgrepo-com.svg" class="social-icon vk-icon"></a>
+                <a href="https://instagram.com"><img src="SVG/instagram-svgrepo-com.svg" class="social-icon instagram-icon"></a>
+                <a href="https://t.me"><img src="SVG/telegram-alt-svgrepo-com.svg" class="social-icon telegram-icon"></a>
+            </div>
+        </div>
+        <div class="copyright">Copyright 2025 SafeGames all rights reserved</div>
+    </footer>
+
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Оформление заказа</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Вход</button>
+                    <button class="auth-tab" data-tab="register">Регистрация</button>
+                </div>
+                
+                <form id="loginForm" class="auth-form active">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Пароль</label>
+                        <input type="password" id="loginPassword" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Войти</button>
+                </form>
+
+                <form id="registerForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="registerName">Имя</label>
+                        <input type="text" id="registerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="registerEmail">Email</label>
+                        <input type="email" id="registerEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="registerPassword">Пароль</label>
+                        <input type="password" id="registerPassword" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Зарегистрироваться</button>
+                </form>
+
+                <div class="payment-form">
+                    <h3>Данные для оплаты</h3>
+                    <div class="form-group">
+                        <label for="cardNumber">Номер карты</label>
+                        <input type="text" id="cardNumber" placeholder="XXXX XXXX XXXX XXXX" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiryDate">Срок действия</label>
+                            <input type="text" id="expiryDate" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" placeholder="XXX" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardName">Имя на карте</label>
+                        <input type="text" id="cardName" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Оплатить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

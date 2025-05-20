@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGames - Описание игры</title>
+    <link rel="icon" href="SVG/Logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="Main.html" class="logo">
+            <img src="SVG/Logo.svg" class="logo-icon" alt="SafeGames Logo">
+            <div class="logo-text">SafeGame</div>
+        </a>
+        
+        <button class="burger-btn" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav class="nav-menu">
+            <div class="nav-links">
+                <a href="catalog.html" class="nav-btn">КАТАЛОГ</a>
+                <a href="about.html" class="nav-btn">О НАС</a>
+            </div>
+            <a href="cart.html" class="cart-icon-container">
+                <img src="SVG/Cart.svg" class="cart-icon" alt="Cart Icon">
+            </a>
+        </nav>
+    </header>
+
+    <main class="game-detail-container">
+        <div class="game-detail">
+            <img id="game-image" class="game-detail-image" alt="Обложка игры">
+            <div class="game-info">
+                <h1 id="game-title" class="game-detail-title"></h1>
+                <div id="game-price" class="game-price-container"></div>
+                <div class="game-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Год выпуска:</span>
+                        <span id="game-year" class="meta-value"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Разработчик:</span>
+                        <span id="game-developer" class="meta-value"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Издатель:</span>
+                        <span id="game-publisher" class="meta-value"></span>
+                    </div>
+                </div>
+                <p id="game-description" class="game-description"></p>
+                
+                <div class="system-requirements">
+                    <h2>Системные требования</h2>
+                    <div class="requirements-grid">
+                        <div class="requirements-section">
+                            <h3>Минимальные</h3>
+                            <ul id="min-requirements" class="requirements-list"></ul>
+                        </div>
+                        <div class="requirements-section">
+                            <h3>Рекомендуемые</h3>
+                            <ul id="recommended-requirements" class="requirements-list"></ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="add-to-cart" data-game-id="${game.id}">В КОРЗИНУ</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">SafeGame</div>
+            <div class="social-icons">
+                <a href="https://vk.com"><img src="SVG/vk-svgrepo-com.svg" class="social-icon vk-icon"></a>
+                <a href="https://instagram.com"><img src="SVG/instagram-svgrepo-com.svg" class="social-icon instagram-icon"></a>
+                <a href="https://t.me"><img src="SVG/telegram-alt-svgrepo-com.svg" class="social-icon telegram-icon"></a>
+            </div>
+        </div>
+        <div class="copyright">Copyright 2025 SafeGames all rights reserved</div>
+    </footer>
+
+    <script src="js/game.js"></script>
+    <script src="js/cartManager.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

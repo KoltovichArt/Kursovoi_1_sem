@@ -1,0 +1,377 @@
+[
+    {
+      "id": "payday3",
+      "title": "Payday 3",
+      "image": "../Photo/Payday3.jpg",
+      "price": 39.99,
+      "discount": 0,
+      "description": "Payday 3 — это кооперативный шутер от первого лица, где игроки берут на себя роль профессиональных грабителей. Игра предлагает сложные ограбления, требующие тщательного планирования и координации между игроками, а также улучшенную графику и механики по сравнению с предыдущими частями.",
+      "year": 2023,
+      "developer": "Starbreeze Studios",
+      "publisher": "Deep Silver",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-9400F / AMD Ryzen 5 2600",
+        "memory": "16 GB",
+        "graphics": "NVIDIA GTX 1070 / AMD RX 5600 XT",
+        "storage": "65 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2070 / AMD RX 5700 XT",
+        "storage": "65 GB (SSD)"
+      }
+    },
+    {
+      "id": "kingdom-come-2",
+      "title": "Kingdom Come: Deliverence II",
+      "image": "../Photo/KingdomCome.png",
+      "price": 79.99,
+      "discount": 0,
+      "description": "Продолжение успешной исторической RPG, действие которой происходит в средневековой Богемии. Игра предлагает реалистичный открытый мир, сложную боевую систему и глубокий сюжет, основанный на реальных исторических событиях.",
+      "year": 2024,
+      "developer": "Warhorse Studios",
+      "publisher": "Deep Silver",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+        "memory": "16 GB",
+        "graphics": "NVIDIA GTX 1070 / AMD RX 5600 XT",
+        "storage": "100 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+        "memory": "32 GB",
+        "graphics": "NVIDIA RTX 3070 / AMD RX 6700 XT",
+        "storage": "100 GB (SSD)"
+      }
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "image": "../Photo/Minecraft.png",
+      "price": 26.95,
+      "discount": 0,
+      "description": "Легендарная песочница, где игроки могут создавать и исследовать бесконечные миры из блоков. Игра предлагает режимы выживания, творчества и множество модификаций, позволяющих полностью изменить игровой процесс.",
+      "year": 2011,
+      "developer": "Mojang Studios",
+      "publisher": "Xbox Game Studios",
+      "minRequirements": {
+        "os": "Windows 7/10/11",
+        "processor": "Intel Core i3-3210 / AMD A8-7600",
+        "memory": "4 GB",
+        "graphics": "Intel HD Graphics 4000 / AMD Radeon R5",
+        "storage": "4 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11",
+        "processor": "Intel Core i5-4690 / AMD A10-7800",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GeForce 700 Series / AMD Radeon Rx 200 Series",
+        "storage": "4 GB (SSD рекомендован)"
+      }
+    },
+    {
+      "id": "elden-ring",
+      "title": "Elden Ring",
+      "image": "../Photo/EldenRing.png",
+      "price": 59.99,
+      "discount": 0,
+      "description": "Масштабная action-RPG от создателей Dark Souls, разработанная в сотрудничестве с Джорджем Р.Р. Мартином. Игра предлагает огромный открытый мир, сложные сражения с боссами и глубокую систему прокачки персонажа.",
+      "year": 2022,
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco Entertainment",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+        "memory": "12 GB",
+        "graphics": "NVIDIA GTX 1060 / AMD RX 580",
+        "storage": "60 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2070 / AMD RX 6600 XT",
+        "storage": "60 GB (SSD)"
+      }
+    },
+    {
+      "id": "cities-skylines-2",
+      "title": "Cities: Skylines II",
+      "image": "../Photo/CitiesSkylines.jpg",
+      "price": 49.99,
+      "discount": 0,
+      "description": "Продолжение популярного градостроительного симулятора с улучшенной графикой и более глубокими механиками управления городом. Игра предлагает реалистичную экономику, транспортную систему и множество возможностей для творчества.",
+      "year": 2023,
+      "developer": "Colossal Order",
+      "publisher": "Paradox Interactive",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-6700K / AMD Ryzen 5 2600X",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GeForce GTX 970 / AMD RX 480",
+        "storage": "60 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "Intel Core i5-12600K / AMD Ryzen 7 5800X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 3080 / AMD RX 6800 XT",
+        "storage": "60 GB (SSD)"
+      }
+    },
+    {
+      "id": "ac-mirage",
+      "title": "Assassin's Creed Mirage",
+      "image": "../Photo/AssassinsCreedMirage.png",
+      "price": 49.99,
+      "discount": 0,
+      "description": "Assassin's Creed Mirage возвращает серию к истокам, предлагая более компактный и сфокусированный опыт. Действие происходит в Багдаде IX века, где игроки управляют Басимом, уличным вором, который становится ассасином.",
+      "year": 2023,
+      "developer": "Ubisoft Bordeaux",
+      "publisher": "Ubisoft",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 1060 / AMD RX 570",
+        "storage": "40 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2070 / AMD RX 5700 XT",
+        "storage": "40 GB (SSD)"
+      }
+    },
+    {
+      "id": "dead-space",
+      "title": "Dead Space Remake",
+      "image": "../Photo/DeadSpace.jpg",
+      "price": 59.99,
+      "discount": 0,
+      "description": "Полностью переработанная версия культового хоррора Dead Space. Игра рассказывает историю инженера Айзека Кларка, который оказывается на космическом корабле, где экипаж был превращен в мутантов. Обновленная графика и механики делают игру еще более пугающей.",
+      "year": 2023,
+      "developer": "Motive Studio",
+      "publisher": "Electronic Arts",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-8600 / AMD Ryzen 5 2600X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2070 / AMD RX 5700 XT",
+        "storage": "50 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 3080 / AMD RX 6800 XT",
+        "storage": "50 GB (SSD)"
+      }
+    },
+    {
+      "id": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "image": "../Photo/BaldursGate3.png",
+      "price": 59.99,
+      "discount": 0,
+      "description": "Baldur's Gate 3 — это эпическая RPG, основанная на правилах D&D 5-й редакции. Игра предлагает глубокий сюжет с множеством выборов, тактическую боевую систему и возможность играть как в одиночку, так и в кооперативе. Каждое решение влияет на развитие истории, а система диалогов позволяет создавать уникальные отношения с компаньонами.",
+      "year": 2023,
+      "developer": "Larian Studios",
+      "publisher": "Larian Studios",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-4690 / AMD FX-8350",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 970 / AMD RX 480",
+        "storage": "150 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2060 Super / AMD RX 5700 XT",
+        "storage": "150 GB (SSD)"
+      }
+    },
+    {
+      "id": "forza-5",
+      "title": "Forza Horizon 5",
+      "image": "../Photo/ForzaHorizon5.png",
+      "price": 59.99,
+      "discount": 0,
+      "description": "Forza Horizon 5 переносит игроков в яркую и разнообразную Мексику. Игра предлагает огромный открытый мир, сотни автомобилей и множество соревнований, от классических гонок до экстремальных испытаний.",
+      "year": 2021,
+      "developer": "Playground Games",
+      "publisher": "Xbox Game Studios",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-4460 / AMD Ryzen 3 1200",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 970 / AMD RX 470",
+        "storage": "110 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-10700K / AMD Ryzen 5 3600X",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2080 / AMD RX 6800",
+        "storage": "110 GB (SSD)"
+      }
+    },
+    {
+      "id": "cyberpunk-2077",
+      "title": "Cyberpunk 2077",
+      "image": "../Photo/Cyberpunk2077.png",
+      "price": 59.99,
+      "discount": 50,
+      "description": "Cyberpunk 2077 — это открытый мир, действие которого происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Вы играете за V, наёмника в поисках устройства, позволяющего обрести бессмертие.",
+      "year": 2020,
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-3570K / AMD FX-8310",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 780 / AMD RX 470",
+        "storage": "70 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-4790 / AMD Ryzen 3 3200G",
+        "memory": "12 GB",
+        "graphics": "NVIDIA GTX 1060 / AMD RX 590",
+        "storage": "70 GB (SSD)"
+      }
+    },
+    {
+      "id": "god-of-war",
+      "title": "God of War (2018)",
+      "image": "../Photo/GodofWar.png",
+      "price": 49.99,
+      "discount": 40,
+      "description": "Перезапуск серии God of War переносит Кратоса в скандинавскую мифологию, где он воспитывает сына Атрея. Игра сочетает жесткие сражения, головоломки и эмоциональный сюжет, разворачивающийся в непрерывной камере «одним кадром».",
+      "year": 2018,
+      "developer": "Santa Monica Studio",
+      "publisher": "Sony Interactive Entertainment",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-2500K / AMD Ryzen 3 1200",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 960 / AMD R9 290X",
+        "storage": "70 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "Intel Core i7-4770K / AMD Ryzen 5 3600",
+        "memory": "16 GB",
+        "graphics": "NVIDIA GTX 1070 / AMD RX 5600 XT",
+        "storage": "70 GB (SSD)"
+      }
+    },
+    {
+      "id": "gta5",
+      "title": "Grand Theft Auto V",
+      "image": "../Photo/GTAV.png",
+      "price": 29.99,
+      "discount": 50,
+      "description": "GTA V переносит игроков в вымышленный Лос-Сантос, где три протагониста — Майкл, Тревор и Франклин — переплетают свои судьбы в серии ограблений. Игра предлагает насыщенный открытый мир, онлайн-режим GTA Online и свободу действий, от гонок до управления бизнесом.",
+      "year": 2013,
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-3470 / AMD FX-8350",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 660 / AMD HD 7870",
+        "storage": "110 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "Intel Core i7-9700K / AMD Ryzen 5 3600",
+        "memory": "16 GB",
+        "graphics": "NVIDIA RTX 2060 / AMD RX 5700",
+        "storage": "110 GB (SSD)"
+      }
+    },
+    {
+      "id": "rdr2",
+      "title": "Red Dead Redemption 2",
+      "image": "../Photo/RDR2.png",
+      "price": 59.99,
+      "discount": 67,
+      "description": "Приквел к оригинальной Red Dead Redemption рассказывает историю банды Ван дер Линде и её краха. Артур Морган, верный член банды, вынужден выбирать между преданностью и честью в мире, где закон и цивилизация побеждают дикий Запад. Игра сочетает кинематографичный сюжет, реалистичный открытый мир и глубокую систему взаимодействия с окружением.",
+      "year": 2018,
+      "developer": "Rockstar Games",
+      "publisher": "Rockstar Games",
+      "minRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i5-2500K / AMD FX-6300",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 770 / AMD R9 280",
+        "storage": "150 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10 (64-bit)",
+        "processor": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+        "memory": "12 GB",
+        "graphics": "NVIDIA GTX 1060 / AMD RX 480",
+        "storage": "150 GB (SSD рекомендован)"
+      }
+    },
+    {
+      "id": "starfield",
+      "title": "Starfield",
+      "image": "../Photo/Starfield.png",
+      "price": 69.99,
+      "discount": 0,
+      "description": "Starfield — первая за 25 лет новая игровая вселенная от создателей The Elder Scrolls и Fallout. Это масштабная космическая RPG, где игроки исследуют сотни планет, создают свои корабли, вступают в фракции и раскрывают тайны древних артефактов. Действие происходит в 2330 году, когда человечество вышло за пределы Солнечной системы.",
+      "year": 2023,
+      "developer": "Bethesda Game Studios",
+      "publisher": "Bethesda Softworks",
+      "minRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
+        "memory": "16 GB",
+        "graphics": "AMD RX 5700 / NVIDIA GTX 1070 Ti",
+        "storage": "125 GB (SSD обязательно)"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "AMD Ryzen 5 3600X / Intel Core i5-10600K",
+        "memory": "16 GB",
+        "graphics": "AMD RX 6800 XT / NVIDIA RTX 2080",
+        "storage": "125 GB (SSD)"
+      }
+    },
+    {
+      "id": "witcher3",
+      "title": "The Witcher 3: Wild Hunt",
+      "image": "../Photo/TheWitcher.png",
+      "price": 39.99,
+      "discount": 75,
+      "description": "«Ведьмак 3: Дикая Охота» — кульминация саги о Геральте из Ривии. В поисках пропавшей Цири, за которой охотится таинственная Дикая Охота, игрок исследует огромный открытый мир, наполненный сложными моральными выборами, уникальными монстрами и политическими интригами. В игре представлены две крупные DLC-дополнения — «Кровь и Вино» и «Каменные Сердца», расширяющие историю на десятки часов.",
+      "year": 2015,
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "minRequirements": {
+        "os": "Windows 7/8/10 (64-bit)",
+        "processor": "Intel Core i5-2500K / AMD Phenom II X4 940",
+        "memory": "6 GB",
+        "graphics": "NVIDIA GTX 660 / AMD Radeon HD 7870",
+        "storage": "50 GB"
+      },
+      "recommendedRequirements": {
+        "os": "Windows 10/11 (64-bit)",
+        "processor": "Intel Core i7-4770K / AMD Ryzen 5 1600",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GTX 1060 / AMD RX 580",
+        "storage": "50 GB (SSD рекомендован)"
+      }
+    }
+  ]  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeGames - Каталог игр</title>
+  <link rel="icon" href="SVG/Logo.svg" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+        <a href="Main.html" class="logo">
+            <img src="SVG/Logo.svg" class="logo-icon" alt="SafeGames Logo">
+            <div class="logo-text">SafeGame</div>
+        </a>
+        
+        <button class="burger-btn" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav class="nav-menu">
+            <div class="nav-links">
+                <a href="catalog.html" class="nav-btn">КАТАЛОГ ИГР</a>
+                <a href="about.html" class="nav-btn">О НАС</a>
+            </div>
+            <a href="cart.html" class="cart-icon-container">
+                <img src="SVG/Cart.svg" class="cart-icon" alt="Cart Icon">
+            </a>
+        </nav>
+    </header>
+
+  <div class="sort-container">
+    <select id="sort-select">
+      <option value="price-asc">Цена: по возрастанию</option>
+      <option value="price-desc">Цена: по убыванию</option>
+      <option value="discount-desc">Скидка: по убыванию</option>
+    </select>
+  </div>
+
+  <main class="games-grid" id="games-container">
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">SafeGame</div>
+      <div class="social-icons">
+        <a href="https://vk.com"><img src="SVG/vk-svgrepo-com.svg" class="social-icon vk-icon"></a>
+        <a href="https://instagram.com"><img src="SVG/instagram-svgrepo-com.svg" class="social-icon instagram-icon"></a>
+        <a href="https://t.me"><img src="SVG/telegram-alt-svgrepo-com.svg" class="social-icon telegram-icon"></a>
+      </div>
+    </div>
+    <div class="copyright">Copyright 2025 SafeGames all rights reserved</div>
+  </footer>
+
+  <script src="js/cartManager.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

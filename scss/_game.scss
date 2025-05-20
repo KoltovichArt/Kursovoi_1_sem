@@ -1,0 +1,168 @@
+.game-detail {
+    &-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 5rem 1rem;
+    }
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    background-color: $card-bg;
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid $border-color;
+
+    &-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+}
+
+.game {
+    &-info {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    &-detail-title {
+        font-size: 2rem;
+        color: $text-light;
+    }
+
+    &-price {
+        &-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        font-size: 1.5rem;
+        color: $text-light;
+
+        &.old {
+            text-decoration: line-through;
+            color: $text-gray;
+        }
+
+        &.new {
+            color: $primary-color;
+        }
+    }
+
+    &-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &-description {
+        color: $text-gray;
+        line-height: 1.8;
+    }
+}
+
+.meta {
+    &-item {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    &-label {
+        color: $text-gray;
+    }
+
+    &-value {
+        color: $text-light;
+    }
+}
+
+.discount-badge {
+    background-color: $primary-color;
+    color: $dark-bg;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.system-requirements {
+    margin-top: 2rem;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: $text-light;
+    }
+
+    &-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+.requirements {
+    &-section {
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: $primary-color;
+        }
+    }
+
+    &-list {
+        list-style: none;
+
+        li {
+            margin-bottom: 0.5rem;
+            color: $text-gray;
+
+            strong {
+                color: $text-light;
+            }
+        }
+    }
+}
+
+.add-to-cart {
+    background-color: $primary-color;
+    color: $dark-bg;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    @include transition;
+    margin-top: 2rem;
+    font-weight: 600;
+
+    &:hover {
+        background-color: darken($primary-color, 5%);
+        transform: translateY(-2px);
+    }
+}
+
+@media (max-width: 768px) {
+    .game-detail {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .requirements-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game {
+        &-detail-title {
+            font-size: 1.5rem;
+        }
+
+        &-price {
+            font-size: 1.2rem;
+        }
+    }
+} 
